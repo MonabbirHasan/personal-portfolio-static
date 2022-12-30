@@ -1,0 +1,327 @@
+/*
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  /* CSS */
+}
+/*
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+/*
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+/*
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .contact-content .form-box #massages {
+    width: 360px !important;
+    height: 200px !important;
+  }
+  .about-content {
+    padding: 70px !important;
+  }
+  .produduct {
+    grid-template-columns: auto auto !important;
+  }
+  .produduct > a {
+    text-align: center;
+    margin: auto !important;
+  }
+  ul {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+  .blog-content .filter-menu li {
+    padding: 15px !important;
+  }
+  .skill-area .page-title h2 {
+    font-size: 3rem !important;
+  }
+  .skill .s-box {
+    width: 260px !important;
+  }
+  .about-content {
+    grid-template-columns: auto !important;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0 0) !important;
+  }
+  .right-area .distc {
+    font-size: 18px !important;
+  }
+  .user-info .project {
+    font-size: 26px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: black;
+  }
+  .btn_box > a > button {
+    font-size: 16px !important;
+    padding: 10px 13px;
+  }
+  .btn_box {
+    left: 36.5% !important;
+  }
+  .right-area h2 {
+    font-size: 32px !important;
+    padding: 20px 0px !important;
+  }
+  .user-info .name.names h5 {
+    color: #373030 !important;
+  }
+  .service-content .s-box h5::before {
+    left: -20% !important;
+  }
+  .service-content .s-box:hover h5::before {
+    width: 130px !important;
+    left: 5% !important;
+    display: none !important;
+  }
+  .left-area img {
+    filter: hue-rotate(307deg);
+  }
+  .dev-box h1 {
+    color: #000000 !important;
+  }
+  .banner-content h4 {
+    color: #000000;
+  }
+  .nav-item .nav-link {
+    font-size: 25px !important;
+    background: rgba(255, 255, 255, 0.5) !important;
+    padding: 10px !important;
+    margin-top: 10px !important;
+    backdrop-filter: blur(10px);
+    margin-left: 30px;
+    letter-spacing: 1px !important;
+    border-radius: 5px;
+  }
+  .nav-item {
+    text-align: center !important;
+  }
+  .nav-item .nav-link {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px);
+  }
+}
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .blog-content .filter-menu li {
+    padding: 5px !important;
+    font-size: 14px !important;
+  }
+  ul {
+    padding: 0 !important;
+  }
+  .produduct {
+    grid-template-columns: auto !important;
+  }
+  .produduct a {
+    margin: auto !important;
+  }
+  .skill {
+    grid-template-columns: auto !important;
+  }
+  .service-content .s-box {
+    margin-top: 20px !important;
+  }
+  .service-content .s-box h5::before {
+    left: 20% !important;
+  }
+  .service-content .s-box:hover h5::before {
+    width: 248px !important;
+  }
+  .read_more {
+    padding: 0 !important;
+    top: 0 !important;
+  }
+  .f-content {
+    text-align: left !important;
+  }
+  .f-content {
+    text-align: left;
+  }
+  .f-content span {
+    text-align: left !important;
+    display: block;
+    width: 400px;
+  }
+  .produduct .item-box {
+    width: 430px !important;
+    border: 3px solid rgb(255 220 125);
+  }
+  .about-content {
+    grid-template-columns: auto !important;
+  }
+  .about-content {
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%, 0 0) !important;
+  }
+  .btn_box {
+    left: 35% !important;
+  }
+  .dev-box h1 {
+    color: #ffffff !important;
+  }
+}
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 414px) {
+  .about_description{
+    padding-top: 30px!important;
+  }
+  .about_description p{
+    font-size: 13px!important;
+  }
+  .about-content {
+    display: grid !important;
+    grid-template-columns: auto !important;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0 0) !important;
+  }
+  .blogs .page-title h2 {
+    font-size: 2rem !important;
+  }
+  .right-area .user-info p {
+    border: none !important;
+  }
+  .about-content p {
+    display: inline-block !important;
+  }
+  .skill {
+    grid-template-columns: auto !important;
+  }
+  .service-content .s-box {
+    left: 0px !important;
+    margin-top: 20px !important;
+  }
+  .wraper {
+    display: grid;
+    grid-template-columns: auto !important;
+  }
+  .list .p-img {
+    position: relative !important;
+    left: 27px !important;
+  }
+  .left-area img {
+    width: 300px !important;
+  }
+  .skill .s-box {
+    width: 300px !important;
+  }
+  .skill-content {
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+  }
+  .service-content .s-box {
+    width: 300px !important;
+  }
+  .produduct {
+    display: grid;
+    grid-template-columns: auto !important;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    gap: 10px;
+  }
+  .contact-content .form-box #massages {
+    width: 275px !important;
+  }
+  .contact-content .form-box {
+    text-align: center !important;
+  }
+  .f-content {
+    text-align: center !important;
+  }
+  .service-content .s-box h5::before {
+    left: 0px !important;
+  }
+  .skill .s-box .inner-box.box2 {
+    width: 275px !important;
+    animation: skill 3.7s ease-in-out forwards;
+  }
+  .skill .s-box .inner-box.box1 {
+    width: 260px !important;
+    animation: skill 3.7s ease-in-out forwards;
+  }
+  .skill .s-box .inner-box.box6 {
+    width: 275px !important;
+    animation: skill 3.7s ease-in-out forwards;
+  }
+  .skill .s-box .inner-box.box7 {
+    width: 275px !important;
+    animation: skill 3.7s ease-in-out forwards;
+  }
+  .right-area h2 {
+    margin-top: 50px !important;
+  }
+  .right-area .user-info .download_btn {
+    margin: 0 !important;
+  }
+  .left-area {
+    text-align: center !important;
+  }
+  /* CSS */
+  ul {
+    margin-left: -2rem !important;
+  }
+  .blog-content .filter-menu li {
+    margin-top: 20px !important;
+    font-size: 12px !important;
+  }
+  .user-info .name h5 {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+  }
+  .user-info .name {
+    margin-left: 0px !important;
+  }
+  .user-info .name.names h5 {
+    font-size: 13px !important;
+    margin: 7px !important;
+  }
+  .project {
+    color: #999;
+  }
+  .btn_box {
+    left: 20.5% !important;
+  }
+  .skill .s-box span {
+    font-size: 16px !important;
+  }
+  @keyframes skill {
+    from {
+      width: 0 !important;
+      filter: hue-rotate(360deg);
+    }
+  }
+  .page-title h2 {
+    font-size: 2rem !important;
+  }
+  .banner-content h4 {
+    font-size: 20px !important;
+  }
+  .dev-box h1 {
+    font-size: 20px !important;
+    margin-top: 13px !important;
+    color: #000;
+  }
+  .text_typing {
+    height: 50px !important;
+    transform: translate(0px, 50px) !important;
+  }
+}

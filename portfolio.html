@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- iconic link end -->
+    <link rel="icon" type="image/x-icon" href="images/MYPHOTOS2.jpg" />
+    <link rel="stylesheet" href="css/p_respons.css"/>
+    <title>portfolio items</title>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        background: #333;
+      }
+      header {
+        padding: 20px 0px;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+      }
+      header ul {
+        position: relative;
+        background: blueviolet;
+      }
+      ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        margin: 5px;
+        transition: 0.5s all;
+      }
+      ul li.active {
+        background: #2196f3;
+        border-radius: 5px;
+        transition: 0.5s ease-in-out;
+      }
+      ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        color: #fff;
+        cursor: pointer;
+      }
+      .product_section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+      }
+      .product_section .item_box {
+        width: 200px;
+        height: 200px;
+        border: 3px solid #eee;
+        margin: 10px;
+        overflow: hidden;
+      }
+      .item_box img {
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+        transition: 0.5s all;
+      }
+      .item_box:hover img {
+        transform: translateY(-50%);
+      }
+      .count_port {
+        font-size: 20px;
+        font-weight: 900;
+        color: aquamarine;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li class="list active" data-menu="all"><a href="#">All</a></li>
+        <li class="list" data-menu="psdhtml"><a href="#">psd-html5</a></li>
+        <li class="list" data-menu="wordpress"><a href="#">wordpress</a></li>
+        <li class="list" data-menu="Elementor"><a href="#">Elementor</a></li>
+        <li class="list" data-menu="Divi"><a href="#">Divi</a></li>
+        <li class="list" data-menu="Jsfunn"><a href="#">Js/funn</a></li>
+        <li class="count_port">porfolio=28</li>
+      </ul>
+    </header>
+    <!--  -->
+    <div class="total_portf_box">
+      <div class="product_section">
+        <div class="item_box psdhtml" data-item="psdhtml">
+          <a href="#"><img src="images/aranoz.png" alt="img5" /></a>
+        </div>
+        <div class="item_box psdhtml" data-item="psdhtml">
+          <a href="#"><img src="images/porfolio.png" alt="img4" /></a>
+        </div>
+        <div class="item_box psdhtml" data-item="psdhtml">
+          <a href="#"><img src="images/gergo.png" alt="img3" /></a>
+        </div>
+        <div class="item_box psdhtml" data-item="psdhtml">
+          <a href="#"><img src="images/ronald.png" alt="img2" /></a>
+        </div>
+        <div class="item_box psdhtml" data-item="psdhtml">
+          <a href="#"><img src="images/vagitable.png" alt="img1" /></a>
+        </div>
+        <!-- wordpress website img -->
+        <div class="item_box wordpress" data-item="wordpress">
+          <a href="#"><img src="images/berger.jpg" alt="img5" /></a>
+        </div>
+        <div class="item_box wordpress" data-item="wordpress">
+          <a href="#"><img src="images/passport.png" alt="img4" /></a>
+        </div>
+        <div class="item_box wordpress" data-item="wordpress">
+          <a href="#"><img src="images/constract.png" alt="img3" /></a>
+        </div>
+        <div class="item_box wordpress" data-item="wordpress">
+          <a href="#"><img src="images/madical.png" alt="img2" /></a>
+        </div>
+        <div class="item_box wordpress" data-item="wordpress">
+          <a href="#"><img src="images/porfolio.png" alt="img1" /></a>
+        </div>
+        <!-- elementor website imig -->
+        <div class="item_box Elementor" data-item="Elementor">
+          <a href="#"><img src="images/martfuly.png" alt="img5" /></a>
+        </div>
+        <div class="item_box Elementor" data-item="Elementor">
+          <a href="#"><img src="images/portfolio2.png" alt="img4" /></a>
+        </div>
+        <div class="item_box Elementor" data-item="Elementor">
+          <a href="#"><img src="images/skater.png" alt="img3" /></a>
+        </div>
+        <div class="item_box Elementor" data-item="Elementor">
+          <a href="#"><img src="images/skillmunk.png" alt="img2" /></a>
+        </div>
+        <div class="item_box Elementor" data-item="Elementor">
+          <a href="#"><img src="images/berger.jpg" alt="img1" /></a>
+        </div>
+        <!-- divi website img -->
+        <div class="item_box Divi" data-item="Divi">
+          <a href="#"><img src="images/Divi-busness.png" alt="img5" /></a>
+        </div>
+        <div class="item_box Divi" data-item="Divi">
+          <a href="#"><img src="images/DIVI-WEBSITE-.png" alt="img4" /></a>
+        </div>
+        <div class="item_box Divi" data-item="Divi">
+          <a href="#"><img src="images/newsletter.png" alt="img3" /></a>
+        </div>
+        <div class="item_box Divi" data-item="Divi">
+          <a href="#"><img src="images/newsportal.png" alt="img2" /></a>
+        </div>
+        <div class="item_box Divi" data-item="Divi">
+          <a href="#"><img src="images/qico.png" alt="img1" /></a>
+        </div>
+        <!-- javascript funn project -->
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/electron.js.png" alt="img5" /></a>
+        </div>
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/particle.png" alt="img4" /></a>
+        </div>
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/kids..png" alt="img3" /></a>
+        </div>
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/3dcard.png" alt="img2" /></a>
+        </div>
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/calculato.png" alt="img1" /></a>
+        </div>
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/berger.jpg" alt="img5" /></a>
+        </div>
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/berger.jpg" alt="img4" /></a>
+        </div>
+        <div class="item_box Jsfunn" data-item="Jsfunn">
+          <a href="#"><img src="images/berger.jpg" alt="img3" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- jqueyr cd link -->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      var list_item = document.querySelectorAll(".list");
+      for (var i = 0; i < list_item.length; i++) {
+        list_item[i].addEventListener("click", function () {
+          for (var j = 0; j < list_item.length; j++) {
+            list_item[j].classList.remove("active");
+          }
+          this.classList.add("active");
+        });
+      }
+      // image filtering iamge
+      $(document).ready(function () {
+        $(".list").on("click", function () {
+          var value = $(this).attr("data-menu");
+          if (value == "all") {
+            $(".item_box").show("1000");
+          } else {
+            $(".item_box")
+              .not("." + value)
+              .hide("1000");
+            $(".item_box")
+              .filter("." + value)
+              .show("1000");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
